@@ -1,0 +1,61 @@
+FROM vbatts/slackware:15.0 AS builder
+
+RUN echo 'y' | slackpkg update
+RUN echo 'y' | slackpkg install \
+ar \
+argon2 \
+autoconf \
+autoconf-archive \
+automake \
+binutils \
+brotli \
+c-ares \
+ca-certificates \
+cmake \
+cryptsetup \
+curl \
+cyrus-sasl \
+dcron \
+elfutils \
+eudev \
+flex \
+g++ \
+gc \
+gcc \
+glibc \
+guile \
+jansson \
+json-c  \
+kernel-headers \
+keyutils \
+libarchive \
+libffi \
+libgcrypt \
+libgpg-error \
+libidn2 \
+libnsl \
+libssh \
+libssh2 \
+libunistring \
+libxml2 \
+libxslt \
+linuxdoc-tools \
+lvm2 \
+lz4 \
+lzlib \
+m4 \
+make \
+meson \
+nghttp2 \
+ninja \
+openldap \
+openssh \
+openssl \
+pkg-config \
+pkg-tools \
+popt \
+python3 \
+socat \
+udisks2 \
+zlib \
+zstd
