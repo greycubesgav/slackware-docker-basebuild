@@ -1,4 +1,5 @@
-FROM vbatts/slackware:15.0 AS builder
+ARG BASE_IMAGE=vbatts/slackware:15.0
+FROM ${BASE_IMAGE} AS builder
 
 RUN echo 'y' | slackpkg update
 RUN echo 'y' | slackpkg install \
