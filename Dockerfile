@@ -1,5 +1,6 @@
-ARG BASE_IMAGE=vbatts/slackware:15.0
-FROM ${BASE_IMAGE} AS builder
+ARG BASE_IMAGE=vbatts
+ARG BASE_VERSION=15.0
+FROM ${BASE_IMAGE}:${BASE_VERSION} AS builder
 
 RUN echo 'y' | slackpkg update
 RUN echo 'y' | slackpkg install \
@@ -43,6 +44,7 @@ libxslt \
 linuxdoc-tools \
 lvm2 \
 lz4 \
+lzip \
 lzlib \
 m4 \
 make \
