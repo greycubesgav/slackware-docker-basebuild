@@ -1,0 +1,20 @@
+PACKAGE NAME:  jq-1.7.1-x86_64-1alien.txz
+PACKAGE LOCATION:  ./jq/pkg64/15.0
+PACKAGE SIZE (compressed):  476 K
+PACKAGE SIZE (uncompressed):  3460 K
+PACKAGE REQUIRED:  
+PACKAGE CONFLICTS:  
+PACKAGE SUGGESTS:  
+PACKAGE DESCRIPTION:
+jq: jq (lightweight JSON processor)
+jq:
+jq: jq is like sed for JSON data - you can use it to slice and filter
+jq: and map and transform structured data with the same ease that
+jq: sed, awk, grep and friends let you play with text.
+jq:
+jq:
+jq:
+jq:
+jq: See also: https://stedolan.github.io/jq/
+jq:
+

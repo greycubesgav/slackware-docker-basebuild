@@ -1,0 +1,39 @@
+++========================================
+||
+||   Package:  ./jq/pkg64/15.0/jq-1.7.1-x86_64-1alien.txz
+||
+++========================================
+drwxr-xr-x root/root         0 2025-01-12 14:42 ./
+drwxr-xr-x root/root         0 2025-01-12 14:42 install/
+-rw-r--r-- root/root       360 2025-01-12 14:42 install/doinst.sh
+-rw-r--r-- root/root       781 2025-01-12 14:42 install/slack-desc
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/bin/
+-rwxr-xr-x root/root    854840 2025-01-12 14:42 usr/bin/jq
+-rwxr-xr-x root/root      1366 2025-01-12 14:42 usr/bin/onig-config
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/doc/
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/doc/jq-1.7.1/
+-rw-r--r-- root/root      8034 2023-12-13 20:24 usr/doc/jq-1.7.1/AUTHORS
+-rw-r--r-- root/root      6026 2023-12-13 20:24 usr/doc/jq-1.7.1/COPYING
+-rw-r--r-- root/root     33286 2023-12-13 20:24 usr/doc/jq-1.7.1/ChangeLog
+-rw-r--r-- root/root     14361 2025-01-12 14:42 usr/doc/jq-1.7.1/NEWS.md
+-rw-r--r-- root/root      1791 2023-12-13 20:24 usr/doc/jq-1.7.1/README.md
+-rw-r--r-- root/root      9380 2025-01-12 14:42 usr/doc/jq-1.7.1/jq.SlackBuild
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/include/
+-rw-r--r-- root/root      2550 2025-01-12 14:42 usr/include/jq.h
+-rw-r--r-- root/root     10505 2025-01-12 14:42 usr/include/jv.h
+-rw-r--r-- root/root      3361 2025-01-12 14:42 usr/include/oniggnu.h
+-rw-r--r-- root/root     49077 2025-01-12 14:42 usr/include/oniguruma.h
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/lib64/
+-rw-r--r-- root/root    671648 2025-01-12 14:42 usr/lib64/libjq.a
+-rwxr-xr-x root/root    376960 2025-01-12 14:42 usr/lib64/libjq.so.1.0.4
+-rw-r--r-- root/root    825034 2025-01-12 14:42 usr/lib64/libonig.a
+-rwxr-xr-x root/root    611072 2025-01-12 14:42 usr/lib64/libonig.so.5.3.0
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/lib64/pkgconfig/
+-rw-r--r-- root/root       245 2025-01-12 14:42 usr/lib64/pkgconfig/libjq.pc
+-rw-r--r-- root/root       244 2025-01-12 14:42 usr/lib64/pkgconfig/oniguruma.pc
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/man/
+drwxr-xr-x root/root         0 2025-01-12 14:42 usr/man/man1/
+-rw-r--r-- root/root     36104 2025-01-12 14:42 usr/man/man1/jq.1.gz
+
+

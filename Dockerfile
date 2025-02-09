@@ -26,6 +26,7 @@ gc \
 gcc \
 glibc \
 guile \
+infozip \
 jansson \
 json-c  \
 kernel-headers \
@@ -62,3 +63,10 @@ socat \
 udisks2 \
 zlib \
 zstd
+
+# Install alien's binary package of jq
+ARG BASE_VERSION
+COPY src/${BASE_VERSION}/jq-* /root/build/
+WORKDIR /root/build/
+ENV PKG=jq-1.7.1-x86_64-1alien.txz
+RUN md5sum -c "${PKG}.md5" && installpkg "${PKG}" && jq --version
