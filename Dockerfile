@@ -51,6 +51,7 @@ m4 \
 make \
 meson \
 nghttp2 \
+nghttp3 \
 ninja \
 openldap \
 openssh \
